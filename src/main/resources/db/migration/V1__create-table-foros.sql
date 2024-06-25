@@ -1,0 +1,9 @@
+CREATE TABLE foros (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(100) NOT NULL,
+    mensaje VARCHAR(200) NOT NULL,
+    autor VARCHAR(50) NOT NULL,
+    curso VARCHAR(50) NOT NULL,
+    status BOOLEAN NOT NULL,
+    fecha_registro DATE NOT NULL
+);
